@@ -818,3 +818,999 @@ Processing by PagesController#show as HTML
 Completed 200 OK in 29ms (Views: 27.8ms)
 
 
+Started GET "/about" for 127.0.0.1 at 2017-09-06 12:04:50 +1000
+  
+ActionController::RoutingError (No route matches [GET] "/about"):
+  
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-09-06 12:06:07 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered shared/_menu.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (1.1ms)
+Completed 200 OK in 431ms (Views: 214.7ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2017-09-06 12:06:11 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"about"}
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.4ms)
+  Rendered shared/_menu.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 26ms (Views: 23.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-06 12:06:12 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered shared/_menu.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 27ms (Views: 26.1ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2017-09-06 12:06:13 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"about"}
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.4ms)
+  Rendered shared/_menu.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 24ms (Views: 23.7ms)
+
+
+Started GET "/pages/contacts" for 127.0.0.1 at 2017-09-06 12:06:13 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"contacts"}
+  Rendering pages/contacts.html.erb within layouts/application
+  Rendered pages/contacts.html.erb within layouts/application (0.3ms)
+  Rendered shared/_menu.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 23ms (Views: 22.5ms)
+
+
+Started GET "/pages/projects" for 127.0.0.1 at 2017-09-06 12:06:14 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"projects"}
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (0.4ms)
+  Rendered shared/_menu.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 26ms (Views: 25.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-06 12:06:15 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered shared/_menu.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 36ms (Views: 35.0ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2017-09-06 12:06:20 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"about"}
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.4ms)
+  Rendered shared/_menu.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 27ms (Views: 26.5ms)
+
+
+Started GET "/pages/contacts" for 127.0.0.1 at 2017-09-06 12:06:21 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"contacts"}
+  Rendering pages/contacts.html.erb within layouts/application
+  Rendered pages/contacts.html.erb within layouts/application (0.5ms)
+  Rendered shared/_menu.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 26ms (Views: 26.0ms)
+
+
+Started GET "/pages/projects" for 127.0.0.1 at 2017-09-06 12:06:23 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"projects"}
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (0.5ms)
+  Rendered shared/_menu.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 28ms (Views: 27.4ms)
+
+
+Started GET "/pages/projects" for 127.0.0.1 at 2017-09-06 12:06:23 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"projects"}
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (0.4ms)
+  Rendered shared/_menu.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 25ms (Views: 24.5ms)
+
+
+Started GET "/pages/contacts" for 127.0.0.1 at 2017-09-06 12:06:24 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"contacts"}
+  Rendering pages/contacts.html.erb within layouts/application
+  Rendered pages/contacts.html.erb within layouts/application (0.5ms)
+  Rendered shared/_menu.html.erb (0.4ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 27ms (Views: 26.6ms)
+
+
+Started GET "/pages/contacts" for 127.0.0.1 at 2017-09-06 12:12:30 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"contacts"}
+  Rendering pages/contacts.html.erb within layouts/application
+  Rendered pages/contacts.html.erb within layouts/application (0.4ms)
+  Rendered shared/_menu.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 24ms (Views: 23.3ms)
+
+
+Started GET "/pages/contacts" for 127.0.0.1 at 2017-09-06 12:13:08 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"contacts"}
+  Rendering pages/contacts.html.erb within layouts/application
+  Rendered pages/contacts.html.erb within layouts/application (0.5ms)
+  Rendered shared/_menu.html.erb (0.4ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 24ms (Views: 23.7ms)
+
+
+Started GET "/pages/contacts" for 127.0.0.1 at 2017-09-06 12:13:37 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"contacts"}
+  Rendering pages/contacts.html.erb within layouts/application
+  Rendered pages/contacts.html.erb within layouts/application (0.3ms)
+  Rendered shared/_menu.html.erb (0.4ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 31ms (Views: 29.9ms)
+
+
+Started GET "/pages/contacts" for 127.0.0.1 at 2017-09-06 12:13:44 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"contacts"}
+  Rendering pages/contacts.html.erb within layouts/application
+  Rendered pages/contacts.html.erb within layouts/application (0.3ms)
+  Rendered shared/_menu.html.erb (0.4ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 25ms (Views: 24.4ms)
+
+
+Started GET "/pages/contacts" for 127.0.0.1 at 2017-09-06 12:19:42 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"contacts"}
+  Rendering pages/contacts.html.erb within layouts/application
+  Rendered pages/contacts.html.erb within layouts/application (0.4ms)
+  Rendered shared/_menu.html.erb (0.4ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 51ms (Views: 50.5ms)
+
+
+Started GET "/pages/contacts" for 127.0.0.1 at 2017-09-06 12:20:28 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"contacts"}
+  Rendering pages/contacts.html.erb within layouts/application
+  Rendered pages/contacts.html.erb within layouts/application (0.4ms)
+  Rendered shared/_menu.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 39ms (Views: 38.2ms)
+
+
+Started GET "/pages/contacts" for 127.0.0.1 at 2017-09-06 12:21:07 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"contacts"}
+  Rendering pages/contacts.html.erb within layouts/application
+  Rendered pages/contacts.html.erb within layouts/application (0.7ms)
+  Rendered shared/_menu.html.erb (0.4ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 31ms (Views: 30.5ms)
+
+
+Started GET "/pages/contacts" for 127.0.0.1 at 2017-09-06 12:26:32 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"contacts"}
+  Rendering pages/contacts.html.erb within layouts/application
+  Rendered pages/contacts.html.erb within layouts/application (0.5ms)
+  Rendered shared/_menu.html.erb (0.4ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 31ms (Views: 30.6ms)
+
+
+Started GET "/pages/contacts" for 127.0.0.1 at 2017-09-06 12:26:58 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"contacts"}
+  Rendering pages/contacts.html.erb within layouts/application
+  Rendered pages/contacts.html.erb within layouts/application (0.3ms)
+  Rendered shared/_menu.html.erb (0.4ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+Completed 200 OK in 30ms (Views: 29.2ms)
+
+
+Started GET "/pages/contacts" for 127.0.0.1 at 2017-09-06 12:28:22 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"contacts"}
+  Rendering pages/contacts.html.erb within layouts/application
+  Rendered pages/contacts.html.erb within layouts/application (0.6ms)
+  Rendered shared/_menu.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 28ms (Views: 27.2ms)
+
+
+Started GET "/pages/contacts" for 127.0.0.1 at 2017-09-06 12:28:37 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"contacts"}
+  Rendering pages/contacts.html.erb within layouts/application
+  Rendered pages/contacts.html.erb within layouts/application (0.5ms)
+  Rendered shared/_menu.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 27ms (Views: 26.4ms)
+
+
+Started GET "/pages/contacts" for 127.0.0.1 at 2017-09-06 12:29:05 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"contacts"}
+  Rendering pages/contacts.html.erb within layouts/application
+  Rendered pages/contacts.html.erb within layouts/application (0.6ms)
+  Rendered shared/_menu.html.erb (0.4ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 31ms (Views: 30.8ms)
+
+
+Started GET "/pages/contacts" for 127.0.0.1 at 2017-09-06 12:37:11 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"contacts"}
+  Rendering pages/contacts.html.erb within layouts/application
+  Rendered pages/contacts.html.erb within layouts/application (0.3ms)
+  Rendered shared/_menu.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 29ms (Views: 28.3ms)
+
+
+Started GET "/pages/contacts" for 127.0.0.1 at 2017-09-06 12:37:21 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"contacts"}
+  Rendering pages/contacts.html.erb within layouts/application
+  Rendered pages/contacts.html.erb within layouts/application (0.5ms)
+  Rendered shared/_menu.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 33ms (Views: 32.4ms)
+
+
+Started GET "/pages/contacts" for 127.0.0.1 at 2017-09-06 12:37:51 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"contacts"}
+  Rendering pages/contacts.html.erb within layouts/application
+  Rendered pages/contacts.html.erb within layouts/application (0.4ms)
+  Rendered shared/_menu.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 26ms (Views: 25.6ms)
+
+
+Started GET "/pages/contacts" for 127.0.0.1 at 2017-09-06 12:38:11 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"contacts"}
+  Rendering pages/contacts.html.erb within layouts/application
+  Rendered pages/contacts.html.erb within layouts/application (0.4ms)
+  Rendered shared/_menu.html.erb (0.7ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 26ms (Views: 25.6ms)
+
+
+Started GET "/pages/contacts" for 127.0.0.1 at 2017-09-06 12:38:23 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"contacts"}
+  Rendering pages/contacts.html.erb within layouts/application
+  Rendered pages/contacts.html.erb within layouts/application (1.0ms)
+  Rendered shared/_menu.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 29ms (Views: 29.0ms)
+
+
+Started GET "/pages/contacts" for 127.0.0.1 at 2017-09-06 12:42:50 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"contacts"}
+  Rendering pages/contacts.html.erb within layouts/application
+  Rendered pages/contacts.html.erb within layouts/application (0.4ms)
+  Rendered shared/_menu.html.erb (0.4ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 26ms (Views: 25.1ms)
+
+
+Started GET "/pages/contacts" for 127.0.0.1 at 2017-09-06 12:43:01 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"contacts"}
+  Rendering pages/contacts.html.erb within layouts/application
+  Rendered pages/contacts.html.erb within layouts/application (1.1ms)
+  Rendered shared/_menu.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 26ms (Views: 25.4ms)
+
+
+Started GET "/pages/contacts" for 127.0.0.1 at 2017-09-06 12:43:18 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"contacts"}
+  Rendering pages/contacts.html.erb within layouts/application
+  Rendered pages/contacts.html.erb within layouts/application (0.4ms)
+  Rendered shared/_menu.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 28ms (Views: 27.8ms)
+
+
+Started GET "/pages/contacts" for 127.0.0.1 at 2017-09-06 12:45:02 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"contacts"}
+  Rendering pages/contacts.html.erb within layouts/application
+  Rendered pages/contacts.html.erb within layouts/application (1.1ms)
+  Rendered shared/_menu.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 25ms (Views: 24.5ms)
+
+
+Started GET "/pages/contacts" for 127.0.0.1 at 2017-09-06 12:45:33 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"contacts"}
+  Rendering pages/contacts.html.erb within layouts/application
+  Rendered pages/contacts.html.erb within layouts/application (0.4ms)
+  Rendered shared/_menu.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 26ms (Views: 25.8ms)
+
+
+Started GET "/pages/contacts" for 127.0.0.1 at 2017-09-06 12:46:50 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"contacts"}
+  Rendering pages/contacts.html.erb within layouts/application
+  Rendered pages/contacts.html.erb within layouts/application (0.8ms)
+  Rendered shared/_menu.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 25ms (Views: 24.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-06 12:46:53 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+  Rendered shared/_menu.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 29ms (Views: 28.4ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2017-09-06 12:46:56 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"about"}
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.5ms)
+  Rendered shared/_menu.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 26ms (Views: 25.3ms)
+
+
+Started GET "/pages/contacts" for 127.0.0.1 at 2017-09-06 12:46:59 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"contacts"}
+  Rendering pages/contacts.html.erb within layouts/application
+  Rendered pages/contacts.html.erb within layouts/application (0.7ms)
+  Rendered shared/_menu.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 32ms (Views: 31.0ms)
+
+
+Started GET "/pages/projects" for 127.0.0.1 at 2017-09-06 12:47:02 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"projects"}
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (0.5ms)
+  Rendered shared/_menu.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 32ms (Views: 31.3ms)
+
+
+Started GET "/pages/projects" for 127.0.0.1 at 2017-09-06 12:47:23 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"projects"}
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (0.3ms)
+  Rendered shared/_menu.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 28ms (Views: 27.7ms)
+
+
+Started GET "/pages/projects" for 127.0.0.1 at 2017-09-06 12:47:37 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"projects"}
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (0.4ms)
+  Rendered shared/_menu.html.erb (0.4ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 29ms (Views: 28.5ms)
+
+
+Started GET "/pages/projects" for 127.0.0.1 at 2017-09-06 12:47:50 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"projects"}
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (0.3ms)
+  Rendered shared/_menu.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 28ms (Views: 26.8ms)
+
+
+Started GET "/pages/projects" for 127.0.0.1 at 2017-09-06 12:48:24 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"projects"}
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (0.4ms)
+  Rendered shared/_menu.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 27ms (Views: 26.5ms)
+
+
+Started GET "/pages/projects" for 127.0.0.1 at 2017-09-06 12:48:26 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"projects"}
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (0.3ms)
+  Rendered shared/_menu.html.erb (0.4ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 26ms (Views: 25.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-06 12:54:25 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered shared/_menu.html.erb (0.4ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 34ms (Views: 33.4ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2017-09-06 12:54:27 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"about"}
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.4ms)
+  Rendered shared/_menu.html.erb (0.4ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 26ms (Views: 25.4ms)
+
+
+Started GET "/pages/contacts" for 127.0.0.1 at 2017-09-06 12:54:29 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"contacts"}
+  Rendering pages/contacts.html.erb within layouts/application
+  Rendered pages/contacts.html.erb within layouts/application (0.4ms)
+  Rendered shared/_menu.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 26ms (Views: 25.6ms)
+
+
+Started GET "/pages/projects" for 127.0.0.1 at 2017-09-06 12:54:32 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"projects"}
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (0.6ms)
+  Rendered shared/_menu.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 29ms (Views: 29.0ms)
+
+
+Started GET "/pages/projects" for 127.0.0.1 at 2017-09-06 13:04:10 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"projects"}
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (0.3ms)
+  Rendered shared/_menu.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 31ms (Views: 30.2ms)
+
+
+Started GET "/bla" for 127.0.0.1 at 2017-09-06 13:04:16 +1000
+  
+ActionController::RoutingError (No route matches [GET] "/bla"):
+  
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/400" for 127.0.0.1 at 2017-09-06 13:04:43 +1000
+  
+ActionController::RoutingError (No route matches [GET] "/400"):
+  
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/400" for 127.0.0.1 at 2017-09-06 13:05:08 +1000
+  
+ActionController::RoutingError (No route matches [GET] "/400"):
+  
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/bla" for 127.0.0.1 at 2017-09-06 13:05:53 +1000
+  
+ActionController::RoutingError (No route matches [GET] "/bla"):
+  
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/bla" for 127.0.0.1 at 2017-09-06 13:06:17 +1000
+  
+ActionController::RoutingError (No route matches [GET] "/bla"):
+  
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Processing by ErrorsController#not_found as HTML
+  Rendering errors/not_found.html.erb within layouts/application
+  Rendered errors/not_found.html.erb within layouts/application (0.9ms)
+  Rendered shared/_menu.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 404 Not Found in 418ms (Views: 163.5ms)
+
+
+Started GET "/bla" for 127.0.0.1 at 2017-09-06 13:06:57 +1000
+  
+ActionController::RoutingError (No route matches [GET] "/bla"):
+  
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Processing by ErrorsController#not_found as HTML
+  Rendering errors/not_found.html.erb within layouts/application
+  Rendered errors/not_found.html.erb within layouts/application (0.5ms)
+  Rendered shared/_menu.html.erb (0.4ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 404 Not Found in 42ms (Views: 41.2ms)
+
+
+Started GET "/bla" for 127.0.0.1 at 2017-09-06 13:07:17 +1000
+  
+ActionController::RoutingError (No route matches [GET] "/bla"):
+  
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Processing by ErrorsController#not_found as HTML
+  Rendering errors/not_found.html.erb within layouts/application
+  Rendered errors/not_found.html.erb within layouts/application (0.3ms)
+  Rendered shared/_menu.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 404 Not Found in 29ms (Views: 28.5ms)
+
+
+Started GET "/bla" for 127.0.0.1 at 2017-09-06 13:07:24 +1000
+  
+ActionController::RoutingError (No route matches [GET] "/bla"):
+  
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Processing by ErrorsController#not_found as HTML
+  Rendering errors/not_found.html.erb within layouts/application
+  Rendered errors/not_found.html.erb within layouts/application (0.3ms)
+  Rendered shared/_menu.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 404 Not Found in 48ms (Views: 47.5ms)
+
+
+Started GET "/bla" for 127.0.0.1 at 2017-09-06 13:07:48 +1000
+  
+ActionController::RoutingError (No route matches [GET] "/bla"):
+  
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Processing by ErrorsController#not_found as HTML
+  Rendering errors/not_found.html.erb within layouts/application
+  Rendered errors/not_found.html.erb within layouts/application (1.6ms)
+  Rendered shared/_menu.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 404 Not Found in 47ms (Views: 46.5ms)
+
+
+Started GET "/bla" for 127.0.0.1 at 2017-09-06 13:09:03 +1000
+  
+ActionController::RoutingError (No route matches [GET] "/bla"):
+  
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Processing by ErrorsController#not_found as HTML
+  Rendering errors/not_found.html.erb within layouts/application
+  Rendered errors/not_found.html.erb within layouts/application (0.9ms)
+  Rendered shared/_menu.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 404 Not Found in 36ms (Views: 35.5ms)
+
+
+Started GET "/bla" for 127.0.0.1 at 2017-09-06 13:10:30 +1000
+  
+ActionController::RoutingError (No route matches [GET] "/bla"):
+  
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Processing by ErrorsController#not_found as HTML
+  Rendering errors/not_found.html.erb within layouts/application
+  Rendered errors/not_found.html.erb within layouts/application (5.6ms)
+  Rendered shared/_menu.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 404 Not Found in 34ms (Views: 33.7ms)
+
+
+Started GET "/bla" for 127.0.0.1 at 2017-09-06 13:12:43 +1000
+  
+ActionController::RoutingError (No route matches [GET] "/bla"):
+  
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Processing by ErrorsController#not_found as HTML
+  Rendering errors/not_found.html.erb within layouts/application
+  Rendered errors/not_found.html.erb within layouts/application (0.4ms)
+  Rendered shared/_menu.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 404 Not Found in 29ms (Views: 27.7ms)
+
+
+Started GET "/errors/internal_server_error" for 127.0.0.1 at 2017-09-06 13:13:03 +1000
+  
+ActionController::RoutingError (No route matches [GET] "/errors/internal_server_error"):
+  
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Processing by ErrorsController#not_found as HTML
+  Rendering errors/not_found.html.erb within layouts/application
+  Rendered errors/not_found.html.erb within layouts/application (0.5ms)
+  Rendered shared/_menu.html.erb (0.4ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 404 Not Found in 22ms (Views: 21.9ms)
+
+
