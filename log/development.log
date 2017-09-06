@@ -1814,3 +1814,311 @@ Processing by ErrorsController#not_found as HTML
 Completed 404 Not Found in 22ms (Views: 21.9ms)
 
 
+Started GET "/errors/internal_server_error.html" for 127.0.0.1 at 2017-09-06 14:40:01 +1000
+  
+ActionController::RoutingError (No route matches [GET] "/errors/internal_server_error.html"):
+  
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Processing by ErrorsController#not_found as HTML
+  Rendering errors/not_found.html.erb within layouts/application
+  Rendered errors/not_found.html.erb within layouts/application (0.3ms)
+  Rendered shared/_menu.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 404 Not Found in 26ms (Views: 25.9ms)
+
+
+Started GET "/blarg" for 127.0.0.1 at 2017-09-06 14:42:17 +1000
+  
+ActionController::RoutingError (No route matches [GET] "/blarg"):
+  
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Processing by ErrorsController#not_found as HTML
+  Rendering errors/not_found.html.erb within layouts/application
+  Rendered errors/not_found.html.erb within layouts/application (0.5ms)
+  Rendered shared/_menu.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 404 Not Found in 22ms (Views: 21.0ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2017-09-06 14:42:21 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"about"}
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.4ms)
+  Rendered shared/_menu.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 26ms (Views: 25.3ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2017-09-06 14:47:01 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"about"}
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (1.1ms)
+  Rendered shared/_menu.html.erb (0.7ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 392ms (Views: 162.9ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2017-09-06 15:16:44 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"about"}
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (1.8ms)
+  Rendered shared/_menu.html.erb (212.1ms)
+Completed 500 Internal Server Error in 253ms
+
+
+  
+ActionView::Template::Error (undefined method `active_class' for #<#<Class:0x007ff803920d30>:0x007ff803910728>):
+     5:   </button>
+     6:   <div class="collapse navbar-collapse" id="navbarNav">
+     7:     <ul class="navbar-nav">
+     8:       <li class="nav-item <%= active_class('home') %>">
+     9:         <%= link_to "Home", 'home' %>
+    10:         <!-- <a class="nav-link" href="/">Home</a> -->
+    11:       </li>
+  
+app/views/shared/_menu.html.erb:8:in `_app_views_shared__menu_html_erb__2846126991061374944_70351585500160'
+app/views/layouts/application.html.erb:31:in `_app_views_layouts_application_html_erb___2301226684496495670_70351594133900'
+app/controllers/pages_controller.rb:3:in `show'
+Processing by ErrorsController#internal_server_error as HTML
+  Parameters: {"page"=>"about"}
+  Rendering errors/internal_server_error.html.erb within layouts/application
+  Rendered errors/internal_server_error.html.erb within layouts/application (0.9ms)
+  Rendered shared/_menu.html.erb (151.9ms)
+Completed 500 Internal Server Error in 189ms
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2017-09-06 15:16:49 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"about"}
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.3ms)
+  Rendered shared/_menu.html.erb (140.2ms)
+Completed 500 Internal Server Error in 163ms
+
+
+  
+ActionView::Template::Error (undefined method `active_class' for #<#<Class:0x007ff803920d30>:0x007ff7ff248480>):
+     5:   </button>
+     6:   <div class="collapse navbar-collapse" id="navbarNav">
+     7:     <ul class="navbar-nav">
+     8:       <li class="nav-item <%= active_class('home') %>">
+     9:         <%= link_to "Home", 'home' %>
+    10:         <!-- <a class="nav-link" href="/">Home</a> -->
+    11:       </li>
+  
+app/views/shared/_menu.html.erb:8:in `_app_views_shared__menu_html_erb__2846126991061374944_70351588314480'
+app/views/layouts/application.html.erb:31:in `_app_views_layouts_application_html_erb___2301226684496495670_70351595987980'
+app/controllers/pages_controller.rb:3:in `show'
+Processing by ErrorsController#internal_server_error as HTML
+  Parameters: {"page"=>"about"}
+  Rendering errors/internal_server_error.html.erb within layouts/application
+  Rendered errors/internal_server_error.html.erb within layouts/application (0.5ms)
+  Rendered shared/_menu.html.erb (152.0ms)
+Completed 500 Internal Server Error in 176ms
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-06 15:16:53 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+  Rendered shared/_menu.html.erb (134.5ms)
+Completed 500 Internal Server Error in 155ms
+
+
+  
+ActionView::Template::Error (undefined method `active_class' for #<#<Class:0x007ff803920d30>:0x007ff802918e88>):
+     5:   </button>
+     6:   <div class="collapse navbar-collapse" id="navbarNav">
+     7:     <ul class="navbar-nav">
+     8:       <li class="nav-item <%= active_class('home') %>">
+     9:         <%= link_to "Home", 'home' %>
+    10:         <!-- <a class="nav-link" href="/">Home</a> -->
+    11:       </li>
+  
+app/views/shared/_menu.html.erb:8:in `_app_views_shared__menu_html_erb__2846126991061374944_70351571999700'
+app/views/layouts/application.html.erb:31:in `_app_views_layouts_application_html_erb___2301226684496495670_70351585956420'
+app/controllers/pages_controller.rb:3:in `show'
+Processing by ErrorsController#internal_server_error as HTML
+  Parameters: {"page"=>"home"}
+  Rendering errors/internal_server_error.html.erb within layouts/application
+  Rendered errors/internal_server_error.html.erb within layouts/application (0.4ms)
+  Rendered shared/_menu.html.erb (213.2ms)
+Completed 500 Internal Server Error in 234ms
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-06 15:18:50 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+  Rendered shared/_menu.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 33ms (Views: 32.7ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2017-09-06 15:18:54 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"about"}
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.7ms)
+  Rendered shared/_menu.html.erb (0.7ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 38ms (Views: 36.7ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2017-09-06 15:18:57 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"about"}
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.4ms)
+  Rendered shared/_menu.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 35ms (Views: 33.9ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2017-09-06 15:20:09 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"about"}
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.8ms)
+  Rendered shared/_menu.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 36ms (Views: 35.8ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2017-09-06 15:26:30 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"about"}
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.4ms)
+  Rendered shared/_menu.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 32ms (Views: 31.6ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2017-09-06 15:26:34 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"about"}
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.4ms)
+  Rendered shared/_menu.html.erb (0.8ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 26ms (Views: 25.5ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2017-09-06 15:27:08 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"about"}
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.3ms)
+  Rendered shared/_menu.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 24ms (Views: 23.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-06 15:27:12 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.1ms)
+  Rendered shared/_menu.html.erb (1.0ms)
+  Rendered shared/_footer.html.erb (5.7ms)
+Completed 200 OK in 49ms (Views: 48.0ms)
+
+
+Started GET "/pages/contacts" for 127.0.0.1 at 2017-09-06 15:27:16 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"contacts"}
+  Rendering pages/contacts.html.erb within layouts/application
+  Rendered pages/contacts.html.erb within layouts/application (0.6ms)
+  Rendered shared/_menu.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 37ms (Views: 36.6ms)
+
+
+Started GET "/pages/contacts" for 127.0.0.1 at 2017-09-06 15:27:28 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"contacts"}
+  Rendering pages/contacts.html.erb within layouts/application
+  Rendered pages/contacts.html.erb within layouts/application (0.5ms)
+  Rendered shared/_menu.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 31ms (Views: 30.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-06 15:27:31 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+  Rendered shared/_menu.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 30ms (Views: 29.1ms)
+
+
+Started GET "/pages/projects" for 127.0.0.1 at 2017-09-06 15:27:46 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"projects"}
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (0.6ms)
+  Rendered shared/_menu.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (0.7ms)
+Completed 200 OK in 32ms (Views: 31.8ms)
+
+
