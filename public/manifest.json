@@ -1,5 +1,5 @@
 {
-    "name": "#FM",
+    "name": "",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -12,7 +12,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#1b2453",
-    "background_color": "#1b2453",
+    "theme_color": "#393939",
+    "background_color": "#393939",
     "display": "standalone"
 }

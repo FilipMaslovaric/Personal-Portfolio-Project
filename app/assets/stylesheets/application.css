@@ -14,56 +14,283 @@
  *= require_self
  */
 
+/* COMPATIBILITY */
+  /* CSS Reset 2.0 */
+    /* v2.0 | 20110126
+      http://meyerweb.com/eric/tools/css/reset/
+      License: none (public domain)
+    */
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed,
+    figure, figcaption, footer, header, hgroup,
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+    	margin: 0;
+    	padding: 0;
+    	border: 0;
+    	font-size: 100%;
+    	font: inherit;
+    	vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure,
+    footer, header, hgroup, menu, nav, section {
+    	display: block;
+    }
+    body {
+    	line-height: 1;
+    }
+    ol, ul {
+    	list-style: none;
+    }
+    blockquote, q {
+    	quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+    	content: '';
+    	content: none;
+    }
+    table {
+    	border-collapse: collapse;
+    	border-spacing: 0;
+    }
 
- /* Palette color codes */
- /* Palette URL: http://paletton.com/#uid=50n0l1k-5mJSNB7IAs2vBhqtRa1k037b0e5j036c025k014-k2alq4ToG3fk74cij5ggR */
+/* TYPOGRAPHY */
 
- /* Feel free to copy&paste color codes to your application */
+/* Font families */
+body {
+    font-family: "Raleway", "Titillium Web", Verdana, Helvetica, "Times New Roman", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, blockquote {
+    font-family: "Titillium Web", Verdana, Helvetica, "Times New Roman", sans-serif;
+}
+
+/* Body */
+body {
+  font-size: 100%;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+  font-size-adjust: 0.5;
+}
+
+/* H1 */
+
+h1 {
+  font-weight: bold;
+  font-size: 2em;
+  /* 2x body copy size = 32px */
+  line-height: 1.25;
+  /* 45px / 36px */
+}
+
+@media (min-width: 43.75em) {
+  h1 {
+    font-size: 2.5em;
+    /* 2.5x body copy size = 40px */
+    line-height: 1.125;
+  }
+}
+
+@media (min-width: 56.25em) {
+  h1 {
+    font-size: 3em;
+    /* 3x body copy size = 48px */
+    line-height: 1.05;
+    /* keep to a multiple of the 20px line height
+    and something more appropriate for display headings */
+  }
+}
+
+/* H2 */
+
+h2 {
+  font-size: 1.625em;
+  /* 1.625x body copy size = 26px */
+  line-height: 1.15384615;
+  /* 30px / 26px */
+}
+
+@media (min-width: 43.75em) {
+  h2 {
+    font-size: 2em;
+    /* 2x body copy size = 32px */
+    line-height: 1.25;
+  }
+}
+
+@media (min-width: 56.25em) {
+  h2 {
+    font-size: 2.25em;
+    /* 2.25x body copy size = 36px */
+    line-height: 1.25;
+  }
+}
+
+/* H3 */
+
+h3 {
+  font-size: 1.375em;
+  /* 1.375x body copy size = 22px */
+  line-height: 1.13636364;
+  /* 25px / 22px */
+}
+
+@media (min-width: 43.75em) {
+  h3 {
+    font-size: 1.5em;
+    /* 1.5x body copy size = 24px */
+    line-height: 1.25;
+  }
+}
+
+@media (min-width: 56.25em) {
+  h3 {
+    font-size: 1.75em;
+    /* 1.75x body copy size = 28px */
+    line-height: 1.25;
+  }
+}
+
+/* H4 */
+
+h4 {
+  font-size: 1.125em;
+  /* 1.125x body copy size = 18px */
+  line-height: 1.11111111;
+}
+
+@media (min-width: 43.75em) {
+  h4 {
+    line-height: 1.22222222;
+    /* (22px / 18px */
+  }
+}
+
+/* Blockquote */
+
+blockquote {
+  font-size: 1.25em;
+  /* 20px / 16px */
+  line-height: 1.25;
+  /* 25px / 20px */
+}
+
+@media (min-width: 43.75em) {
+  blockquote {
+    font-size: 1.5em;
+    /* 24px / 16px = */
+    line-height: 1.45833333;
+    /* 35px / 24px */
+  }
+}
 
 
- /* As hex codes */
 
- .color-primary-0 { color: #B54500 }	/* Main Primary color */
- .color-primary-1 { color: #FF6200 }
- .color-primary-2 { color: #DF5600 }
- .color-primary-3 { color: #8B3602 }
- .color-primary-4 { color: #502205 }
+/* BASE ELEMENTS */
+  /* Bootstrap style Container */
+    .container {
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    @media (min-width: 768px) {
+      .container {
+        width: 750px;
+      }
+    }
+    @media (min-width: 992px) {
+      .container {
+        width: 970px;
+      }
+    }
+    @media (min-width: 1200px) {
+      .container {
+        width: 1170px;
+      }
+    }
+    .container-fluid {
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+    }
 
- .color-secondary-1-0 { color: #393939 }	/* Main Secondary color (1) */
- .color-secondary-1-1 { color: #2A2A2A }
- .color-secondary-1-2 { color: #313131 }
- .color-secondary-1-3 { color: #2A2A2A }
- .color-secondary-1-4 { color: #242424 }
+/* NAVIGATION AND LINKS */
 
- .color-secondary-2-0 { color: #ABA69F }	/* Main Secondary color (2) */
- .color-secondary-2-1 { color: #C5B8A7 }
- .color-secondary-2-2 { color: #A09990 }
- .color-secondary-2-3 { color: #928A7F }
- .color-secondary-2-4 { color: #867D70 }
+a {
+  text-decoration: none;
+  color: #C5B8A7;
+}
 
+a:hover {
+  color: #FF6200;
+}
 
+a:active {
+  color: #867D70;
+}
 
- /* As RGBa codes */
+.active {
+  color: #FF6200;
+}
 
- .rgba-primary-0 { color: rgba(181, 69,  0,1) }	/* Main Primary color */
- .rgba-primary-1 { color: rgba(255, 98,  0,1) }
- .rgba-primary-2 { color: rgba(223, 86,  0,1) }
- .rgba-primary-3 { color: rgba(139, 54,  2,1) }
- .rgba-primary-4 { color: rgba( 80, 34,  5,1) }
+/* COLORS */
+  /* Palette color codes */
+  /* Palette URL: http://paletton.com/#uid=50n0l1k-5mJSNB7IAs2vBhqtRa1k037b0e5j036c025k014-k2alq4ToG3fk74cij5ggR */
+  /* Feel free to copy&paste color codes to your application */
 
- .rgba-secondary-1-0 { color: rgba( 57, 57, 57,1) }	/* Main Secondary color (1) */
- .rgba-secondary-1-1 { color: rgba( 42, 42, 42,1) }
- .rgba-secondary-1-2 { color: rgba( 49, 49, 49,1) }
- .rgba-secondary-1-3 { color: rgba( 42, 42, 42,1) }
- .rgba-secondary-1-4 { color: rgba( 36, 36, 36,1) }
+  /* As hex codes */
+    .color-primary-0 { color: #B54500 }	/* Main Primary color */
+    .color-primary-1 { color: #FF6200 }
+    .color-primary-2 { color: #DF5600 }
+    .color-primary-3 { color: #8B3602 }
+    .color-primary-4 { color: #502205 }
 
- .rgba-secondary-2-0 { color: rgba(171,166,159,1) }	/* Main Secondary color (2) */
- .rgba-secondary-2-1 { color: rgba(197,184,167,1) }
- .rgba-secondary-2-2 { color: rgba(160,153,144,1) }
- .rgba-secondary-2-3 { color: rgba(146,138,127,1) }
- .rgba-secondary-2-4 { color: rgba(134,125,112,1) }
+    .color-secondary-1-0 { color: #393939 }	/* Main Secondary color (1) */
+    .color-secondary-1-1 { color: #2A2A2A }
+    .color-secondary-1-2 { color: #313131 }
+    .color-secondary-1-3 { color: #2A2A2A }
+    .color-secondary-1-4 { color: #242424 }
 
+    .color-secondary-2-0 { color: #ABA69F }	/* Main Secondary color (2) */
+    .color-secondary-2-1 { color: #C5B8A7 }
+    .color-secondary-2-2 { color: #A09990 }
+    .color-secondary-2-3 { color: #928A7F }
+    .color-secondary-2-4 { color: #867D70 }
 
+    .color-highlight-1 { color: #574AE2 } /* Highlight colors (2) */
+    .color-highlight-2 { color: #222A68 }
 
- /* Generated by Paletton.com Â© 2002-2014 */
- /* http://paletton.com */
+   /* As RGBa codes */
+     .rgba-primary-0 { color: rgba(181, 69,  0,1) }	/* Main Primary color */
+     .rgba-primary-1 { color: rgba(255, 98,  0,1) }
+     .rgba-primary-2 { color: rgba(223, 86,  0,1) }
+     .rgba-primary-3 { color: rgba(139, 54,  2,1) }
+     .rgba-primary-4 { color: rgba( 80, 34,  5,1) }
+
+     .rgba-secondary-1-0 { color: rgba( 57, 57, 57,1) }	/* Main Secondary color (1) */
+     .rgba-secondary-1-1 { color: rgba( 42, 42, 42,1) }
+     .rgba-secondary-1-2 { color: rgba( 49, 49, 49,1) }
+     .rgba-secondary-1-3 { color: rgba( 42, 42, 42,1) }
+     .rgba-secondary-1-4 { color: rgba( 36, 36, 36,1) }
+
+     .rgba-secondary-2-0 { color: rgba(171,166,159,1) }	/* Main Secondary color (2) */
+     .rgba-secondary-2-1 { color: rgba(197,184,167,1) }
+     .rgba-secondary-2-2 { color: rgba(160,153,144,1) }
+     .rgba-secondary-2-3 { color: rgba(146,138,127,1) }
+     .rgba-secondary-2-4 { color: rgba(134,125,112,1) }
+
+   /* Generated by Paletton.com Â© 2002-2014 */
+   /* http://paletton.com */

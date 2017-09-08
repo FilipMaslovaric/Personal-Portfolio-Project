@@ -1,21 +1,22 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="/">#FilipMaslovaric</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item <%= active_class('/') %>">
-        <a class="nav-link" href="/">Home</a>
+<!-- Header nav bar with brand and page links -->
+
+<nav class="nav-bar">
+  <div class="wrapper">
+    <div class="logo">
+      <a class="nav-brand" href="/">#FilipMaslovaric</a>
+    </div>
+    <ul class="nav-linkbar">
+      <li>
+        <a class="nav-link <%= active_class('/') %>" href="/">Home</a>
       </li>
-      <li class="nav-item <%= active_class('/pages/about') %>">
-        <a class="nav-link" href="/pages/about">About</a>
+      <li>
+        <a class="nav-link <%= active_class('/pages/about') %>" href="/pages/about">About</a>
       </li>
-      <li class="nav-item <%= active_class('/pages/contacts') %>">
-        <a class="nav-link" href="/pages/contacts">Contacts</a>
+      <li>
+        <a class="nav-link <%= active_class('/pages/contacts') %>" href="/pages/contacts">Contacts</a>
       </li>
-      <li class="nav-item <%= active_class('/pages/projects') %>">
-        <a class="nav-link" href="/pages/projects">Projects</a>
+      <li>
+        <a class="nav-link <%= active_class('/pages/projects') %>" href="/pages/projects">Projects</a>
       </li>
     </ul>
   </div>
