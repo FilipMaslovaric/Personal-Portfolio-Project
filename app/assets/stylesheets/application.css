@@ -270,14 +270,14 @@
   /* CSS Grid */
     .grid {
       display: grid;
-      grid-area:
+      grid-area: repeat(6, 2fr);
       grid-auto-rows: minmax(100px, auto);
       grid-row-gap: 0.5rem;
       justify-items: stretch;
       align-items: center;
       padding: 1rem;
     }
-  /* Homepage content styles */
+  /* Content styles */
     .hero {
       display: flex;
       flex-flow: column nowrap;
@@ -285,7 +285,14 @@
       justify-content: center;
       min-height: 87vh;
     }
-    .hero-bg--home {
+    .page-cover--home {
+      background-image: url(http://i.imgur.com/aXDNNAr.png);
+      background-color: #393939;
+      background-size: cover;
+      background-position: center;
+      background-blend-mode: multiply;
+    }
+    .page-cover--contacts {
       background-image: url(http://i.imgur.com/aXDNNAr.png);
       background-color: #393939;
       background-size: cover;
@@ -307,6 +314,10 @@
       text-align: center;
       padding-top: 1%;
       padding-bottom: 1%
+    }
+
+    .contact-item {
+      text-align: center;
     }
 
 /* NAVIGATION AND LINKS */
