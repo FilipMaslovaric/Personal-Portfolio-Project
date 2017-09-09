@@ -14,7 +14,7 @@
  *= require_self
  */
 
-/* LAYOUT */
+/* Overall styles and resets */
   /* CSS Reset 2.0 */
     /* v2.0 | 20110126
       http://meyerweb.com/eric/tools/css/reset/
@@ -89,7 +89,7 @@
       background-color: #242424;
     }
 
-/* TYPOGRAPHY */
+/* Font styles */
 
   /* Font families */
     body {
@@ -230,7 +230,7 @@
         html { font-size: calc( 16px + (24 - 16) * (100vw - 400px) / (1224 - 320) ); }
       }
 
-/* MAIN CONTENT */
+/* Pages styles */
   /* Bootstrap style Container */
     .container {
       padding-right: 15px;
@@ -270,12 +270,20 @@
   /* CSS Grid */
     .grid {
       display: grid;
-      grid-area: repeat(6, 2fr);
+      grid-template-columns: repeat(7, 2fr);
       grid-auto-rows: minmax(100px, auto);
       grid-row-gap: 0.5rem;
       justify-items: stretch;
       align-items: center;
       padding: 1rem;
+    }
+    .grid-heading {
+      grid-column: 3/6;
+      grid-row: 1;
+    }
+    .grid-object {
+      grid-column: 3/6;
+      grid-row: 1;
     }
   /* Content styles */
     .hero {
@@ -285,15 +293,21 @@
       justify-content: center;
       min-height: 87vh;
     }
+    .flexbox {
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      justify-content: space-around;
+    }
     .page-cover--home {
-      background-image: url(http://i.imgur.com/aXDNNAr.png);
+      background-image: url(https://i.imgur.com/aXDNNAr.png);
       background-color: #393939;
       background-size: cover;
       background-position: center;
       background-blend-mode: multiply;
     }
     .page-cover--contacts {
-      background-image: url(http://i.imgur.com/aXDNNAr.png);
+      background-image: url(https://i.imgur.com/aXDNNAr.png);
       background-color: #393939;
       background-size: cover;
       background-position: center;
@@ -316,13 +330,19 @@
       padding-bottom: 1%
     }
 
-    .contact-item {
+    .contact-email {
+      grid-column: 2;
       text-align: center;
+      padding-top: 1em;
+    }
+    .contact-phone {
+      grid-column: 5;
+      text-align: center;
+      padding-top: 1em;
     }
 
-/* NAVIGATION AND LINKS */
-  /* Navigation */
-  /* Navbar */
+/* Menu,Footer and links styles */
+  /* Menu */
     .nav-bar {
       background-color: transparent;
       display: grid;
@@ -407,12 +427,12 @@
       color: #FF6200;
     }
 
-/* COLORS */
+/* Colour Palette */
   /* Palette color codes */
   /* Palette URL: http://paletton.com/#uid=50n0l1k-5mJSNB7IAs2vBhqtRa1k037b0e5j036c025k014-k2alq4ToG3fk74cij5ggR */
   /* Feel free to copy&paste color codes to your application */
 
-  /* As hex codes */
+  /* Main palette */
     .color-primary-0 { color: #B54500 }	/* Main Primary color */
     .color-primary-1 { color: #FF6200 }
     .color-primary-2 { color: #DF5600 }
@@ -434,7 +454,7 @@
     .color-highlight-1 { color: #574AE2 } /* Highlight colors (2) */
     .color-highlight-2 { color: #222A68 }
 
-   /* As RGBa codes */
+   /* Main palette - As RGBa codes */
      .rgba-primary-0 { color: rgba(181, 69,  0,1) }	/* Main Primary color */
      .rgba-primary-1 { color: rgba(255, 98,  0,1) }
      .rgba-primary-2 { color: rgba(223, 86,  0,1) }
