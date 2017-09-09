@@ -1,23 +1,32 @@
 <!-- Header nav bar with brand and page links -->
 
 <nav class="nav-bar">
-  <div class="wrapper">
-    <div class="logo">
-      <a class="nav-brand" href="/">#FilipMaslovaric</a>
+    <div class="nav-logo">
+      <a class="nav-brand <%= active_class('/') %>"
+        data-balloon="Home" data-balloon-pos="down" href="/">
+        <h1> # </h1>
+      </a>
     </div>
     <ul class="nav-linkbar">
       <li>
-        <a class="nav-link <%= active_class('/') %>" href="/">Home</a>
+        <a class="nav-link <%= active_class('/') %>" href="/">
+          <h3> Home </h3>
+        </a>
       </li>
       <li>
-        <a class="nav-link <%= active_class('/pages/about') %>" href="/pages/about">About</a>
+        <a class="nav-link <%= active_class('/pages/about') %>" href="/pages/about">
+          <h3> About </h3>
+        </a>
       </li>
       <li>
-        <a class="nav-link <%= active_class('/pages/contacts') %>" href="/pages/contacts">Contacts</a>
+        <a class="nav-link <%= active_class('/pages/contacts') %>" href="/pages/contacts">
+          <h3> Contacts </h3>
+        </a>
       </li>
       <li>
-        <a class="nav-link <%= active_class('/pages/projects') %>" href="/pages/projects">Projects</a>
+        <a class="nav-link <%= active_class('/pages/projects') %>" href="/pages/projects">
+          <h3> Projects </h3>
+        </a>
       </li>
     </ul>
-  </div>
 </nav>

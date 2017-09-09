@@ -1,24 +1,34 @@
 <!-- Footer with Copyright and social media links -->
 
-<footer>
-    <ul>
-      <li>© <%= Date.today.year %> Filip Maslovaric</li>
+<footer class="footer">
+    <p class="footer-copyright color-secondary-2-1">© <%= Date.today.year %> Filip Maslovaric</p>
+    <ul class="footer-links">
       <li>
-        <a role=button href="https://github.com/FilipMaslovaric">
-          <i class="fa fa-github fa-1x" aria-hidden="true"></i>
+        <a class="grid-link"
+        role=button
+        data-balloon="GitHub" data-balloon-pos="up" href="https://github.com/FilipMaslovaric">
+          <i class="fa fa-github fa-2x"
+          aria-hidden="true"></i>
+          </a>
+      </li>
+      <li>
+        <a class="grid-link"
+        role=button
+        data-balloon="Medium" data-balloon-pos="up" href="https://medium.com/@filipmaslovaric">
+          <i class="fa fa-medium fa-2x" aria-hidden="true"></i>
         </a>
       </li>
       <li>
-        <a role=button href="https://twitter.com/filipmaslovaric">
-          <i class="fa fa-twitter fa-1x" aria-hidden="true"></i>
+        <a class="grid-link"
+        role=button
+        data-balloon="Twitter" data-balloon-pos="up" href="https://twitter.com/filipmaslovaric">
+          <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
         </a>
       </li>
       <li>
-        <a role=button href="https://medium.com/@filipmaslovaric"><i class="fa fa-medium fa-1x" aria-hidden="true"></i>
-        </a>
-      </li>
-      <li>
-        <a role=button href="https://www.linkedin.com/in/filipmaslovaric/"><i class="fa fa-linkedin fa-1x" aria-hidden="true"></i>
+        <a class="grid-link"
+        role=button data-balloon="LinkedIn" data-balloon-pos="up" href="https://www.linkedin.com/in/filipmaslovaric/">
+          <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
         </a>
       </li>
 </footer>

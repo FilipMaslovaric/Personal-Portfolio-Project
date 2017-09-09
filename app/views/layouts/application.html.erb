@@ -11,7 +11,10 @@
     <script src="https://use.fontawesome.com/bc25f7bda9.js"></script>
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway|Titillium+Web" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Raleway|Titillium+Web:600" rel="stylesheet">
+
+    <!-- Baloon.css Tooltips -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/balloon-css/0.4.0/balloon.min.css">
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
@@ -28,7 +31,9 @@
 
   <body>
     <%= render 'shared/menu' %>
-    <%= yield %>
+    <div class="content">
+      <%= yield %>
+    </div>
     <%= render 'shared/footer' %>
   </body>
 </html>
