@@ -1,3 +1,5 @@
+ruby '2.4.1'
+
 source 'https://rubygems.org'
 
 git_source(:github) do |repo_name|
@@ -29,6 +31,8 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+
+gem 'sitemap_generator'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
