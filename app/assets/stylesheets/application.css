@@ -361,6 +361,13 @@ blockquote {
   background-position: center;
   background-blend-mode: multiply;
 }
+.page-cover--error {
+  background-image: url(https://i.imgur.com/Rj1KuBd.jpg);
+  background-color: #393939;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+}
 
 .main-logo {
   text-align: center;
@@ -521,155 +528,155 @@ a:active {
 /* Main palette */
 
 .color-primary-0 {
-  color: #B54500
+  color: #B54500;
 }
 
 
 /* Main Primary color */
 
 .color-primary-1 {
-  color: #FF6200
+  color: #FF6200;
 }
 
 .color-primary-2 {
-  color: #DF5600
+  color: #DF5600;
 }
 
 .color-primary-3 {
-  color: #8B3602
+  color: #8B3602;
 }
 
 .color-primary-4 {
-  color: #502205
+  color: #502205;
 }
 
 .color-secondary-1-0 {
-  color: #393939
+  color: #393939;
 }
 
 
 /* Main Secondary color (1) */
 
 .color-secondary-1-1 {
-  color: #2A2A2A
+  color: #2A2A2A;
 }
 
 .color-secondary-1-2 {
-  color: #313131
+  color: #313131;
 }
 
 .color-secondary-1-3 {
-  color: #2A2A2A
+  color: #2A2A2A;
 }
 
 .color-secondary-1-4 {
-  color: #242424
+  color: #242424;
 }
 
 .color-secondary-2-0 {
-  color: #ABA69F
+  color: #ABA69F;
 }
 
 
 /* Main Secondary color (2) */
 
 .color-secondary-2-1 {
-  color: #C5B8A7
+  color: #C5B8A7;
 }
 
 .color-secondary-2-2 {
-  color: #A09990
+  color: #A09990;
 }
 
 .color-secondary-2-3 {
-  color: #928A7F
+  color: #928A7F;
 }
 
 .color-secondary-2-4 {
-  color: #867D70
+  color: #867D70;
 }
 
 .color-highlight-1 {
-  color: #574AE2
+  color: #574AE2;
 }
 
 
 /* Highlight colors (2) */
 
 .color-highlight-2 {
-  color: #222A68
+  color: #222A68;
 }
 
 
 /* Main palette - As RGBa codes */
 
 .rgba-primary-0 {
-  color: rgba(181, 69, 0, 1)
+  color: rgba(181, 69, 0, 1);
 }
 
 
 /* Main Primary color */
 
 .rgba-primary-1 {
-  color: rgba(255, 98, 0, 1)
+  color: rgba(255, 98, 0, 1);
 }
 
 .rgba-primary-2 {
-  color: rgba(223, 86, 0, 1)
+  color: rgba(223, 86, 0, 1);
 }
 
 .rgba-primary-3 {
-  color: rgba(139, 54, 2, 1)
+  color: rgba(139, 54, 2, 1);
 }
 
 .rgba-primary-4 {
-  color: rgba( 80, 34, 5, 1)
+  color: rgba( 80, 34, 5, 1);
 }
 
 .rgba-secondary-1-0 {
-  color: rgba( 57, 57, 57, 1)
+  color: rgba( 57, 57, 57, 1);
 }
 
 
 /* Main Secondary color (1) */
 
 .rgba-secondary-1-1 {
-  color: rgba( 42, 42, 42, 1)
+  color: rgba( 42, 42, 42, 1);
 }
 
 .rgba-secondary-1-2 {
-  color: rgba( 49, 49, 49, 1)
+  color: rgba( 49, 49, 49, 1);
 }
 
 .rgba-secondary-1-3 {
-  color: rgba( 42, 42, 42, 1)
+  color: rgba( 42, 42, 42, 1);
 }
 
 .rgba-secondary-1-4 {
-  color: rgba( 36, 36, 36, 1)
+  color: rgba( 36, 36, 36, 1);
 }
 
 .rgba-secondary-2-0 {
-  color: rgba(171, 166, 159, 1)
+  color: rgba(171, 166, 159, 1);
 }
 
 
 /* Main Secondary color (2) */
 
 .rgba-secondary-2-1 {
-  color: rgba(197, 184, 167, 1)
+  color: rgba(197, 184, 167, 1);
 }
 
 .rgba-secondary-2-2 {
-  color: rgba(160, 153, 144, 1)
+  color: rgba(160, 153, 144, 1);
 }
 
 .rgba-secondary-2-3 {
-  color: rgba(146, 138, 127, 1)
+  color: rgba(146, 138, 127, 1);
 }
 
 .rgba-secondary-2-4 {
-  color: rgba(134, 125, 112, 1)
+  color: rgba(134, 125, 112, 1);
 }
 
 
