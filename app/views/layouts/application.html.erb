@@ -5,7 +5,7 @@
     <%= csrf_meta_tags %>
 
     <!-- Responsiveness Meta Tag -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalabe=no">
 
     <!-- FontAwesome code -->
     <script src="https://use.fontawesome.com/bc25f7bda9.js"></script>
@@ -29,7 +29,7 @@
   </head>
   <body>
     <%= render 'shared/menu' %>
-    <div class="content">
+    <div>
       <%= yield %>
     </div>
     <%= render 'shared/footer' %>

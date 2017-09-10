@@ -14,490 +14,706 @@
  *= require_self
  */
 
+
 /* Overall styles and resets */
-  /* CSS Reset 2.0 */
-    /* v2.0 | 20110126
+
+
+/* CSS Reset 2.0 */
+
+
+/* v2.0 | 20110126
       http://meyerweb.com/eric/tools/css/reset/
       License: none (public domain)
     */
-    html, body, div, span, applet, object, iframe,
-    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-    a, abbr, acronym, address, big, cite, code,
-    del, dfn, em, img, ins, kbd, q, s, samp,
-    small, strike, strong, sub, sup, tt, var,
-    b, u, i, center,
-    dl, dt, dd, ol, ul, li,
-    fieldset, form, label, legend,
-    table, caption, tbody, tfoot, thead, tr, th, td,
-    article, aside, canvas, details, embed,
-    figure, figcaption, footer, header, hgroup,
-    menu, nav, output, ruby, section, summary,
-    time, mark, audio, video {
-    	margin: 0;
-    	padding: 0;
-    	border: 0;
-    	font-size: 100%;
-    	font: inherit;
-    	vertical-align: baseline;
-    }
-    /* HTML5 display-role reset for older browsers */
-    article, aside, details, figcaption, figure,
-    footer, header, hgroup, menu, nav, section {
-    	display: block;
-    }
-    body {
-    	line-height: 1;
-    }
-    ol, ul {
-    	list-style: none;
-    }
-    blockquote, q {
-    	quotes: none;
-    }
-    blockquote:before, blockquote:after,
-    q:before, q:after {
-    	content: '';
-    	content: none;
-    }
-    table {
-    	border-collapse: collapse;
-    	border-spacing: 0;
-    }
 
-  /* Box sizing to border box */
-    html {
-      box-sizing: border-box;
-    }
-    *, *:before, *:after {
-      box-sizing: inherit;
-    }
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
 
-  /* Sticky footer */
-    html, body {
-      height: 100%;
-    }
-  /* Background Color */
-  /* Overall Background */
-    body {
-      background-color: #242424;
-    }
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/* Box sizing to border box */
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+/* Sticky footer */
+
+html, body {
+  height: 100%;
+}
+
+
+/* Background Color */
+
+
+/* Overall Background */
+
+body {
+  background-color: #242424;
+}
+
 
 /* Font styles */
 
-  /* Font families */
-    body {
-        font-family: "Raleway", "Titillium Web", Verdana, Helvetica, "Times New Roman", sans-serif;
-    }
-    h1, h2, h3, h4, h5, h6, blockquote {
-        font-family: "Titillium Web", Verdana, Helvetica, "Times New Roman", sans-serif;
-    }
 
-  /* Body */
-    body {
-      font-size: 100%;
-    }
+/* Font families */
 
-    body, h1, h2, h3, h4, h5, h6 {
-      font-size-adjust: 0.5;
-    }
+body {
+  font-family: "Raleway", "Titillium Web", Verdana, Helvetica, "Times New Roman", sans-serif;
+}
 
-  /* H1 */
-    h1 {
-      font-weight: bold;
-      font-size: 2em;
-      /* 2x body copy size = 32px */
-      line-height: 1.25;
-      /* 45px / 36px */
-    }
+h1, h2, h3, h4, h5, h6, blockquote {
+  font-family: "Titillium Web", Verdana, Helvetica, "Times New Roman", sans-serif;
+}
 
-    @media (min-width: 43.75em) {
-      h1 {
-        font-size: 2.5em;
-        /* 2.5x body copy size = 40px */
-        line-height: 1.125;
-      }
-    }
 
-    @media (min-width: 56.25em) {
-      h1 {
-        font-size: 3em;
-        /* 3x body copy size = 48px */
-        line-height: 1.05;
-        /* keep to a multiple of the 20px line height
+/* Body */
+
+body {
+  font-size: 100%;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+  font-size-adjust: 0.5;
+}
+
+
+/* H1 */
+
+h1 {
+  font-weight: bold;
+  font-size: 2em;
+  /* 2x body copy size = 32px */
+  line-height: 1.25;
+  /* 45px / 36px */
+}
+
+@media (min-width: 43.75em) {
+  h1 {
+    font-size: 2.5em;
+    /* 2.5x body copy size = 40px */
+    line-height: 1.125;
+  }
+}
+
+@media (min-width: 56.25em) {
+  h1 {
+    font-size: 3em;
+    /* 3x body copy size = 48px */
+    line-height: 1.05;
+    /* keep to a multiple of the 20px line height
         and something more appropriate for display headings */
-      }
-    }
+  }
+}
 
-  /* H2 */
-    h2 {
-      font-size: 1.625em;
-      /* 1.625x body copy size = 26px */
-      line-height: 1.15384615;
-      /* 30px / 26px */
-    }
 
-    @media (min-width: 43.75em) {
-      h2 {
-        font-size: 2em;
-        /* 2x body copy size = 32px */
-        line-height: 1.25;
-      }
-    }
+/* H2 */
 
-    @media (min-width: 56.25em) {
-      h2 {
-        font-size: 2.25em;
-        /* 2.25x body copy size = 36px */
-        line-height: 1.25;
-      }
-    }
+h2 {
+  font-size: 1.625em;
+  /* 1.625x body copy size = 26px */
+  line-height: 1.15384615;
+  /* 30px / 26px */
+}
 
-  /* H3 */
-    h3 {
-      font-size: 1.375em;
-      /* 1.375x body copy size = 22px */
-      line-height: 1.13636364;
-      /* 25px / 22px */
-    }
+@media (min-width: 43.75em) {
+  h2 {
+    font-size: 2em;
+    /* 2x body copy size = 32px */
+    line-height: 1.25;
+  }
+}
 
-    @media (min-width: 43.75em) {
-      h3 {
-        font-size: 1.5em;
-        /* 1.5x body copy size = 24px */
-        line-height: 1.25;
-      }
-    }
+@media (min-width: 56.25em) {
+  h2 {
+    font-size: 2.25em;
+    /* 2.25x body copy size = 36px */
+    line-height: 1.25;
+  }
+}
 
-    @media (min-width: 56.25em) {
-      h3 {
-        font-size: 1.75em;
-        /* 1.75x body copy size = 28px */
-        line-height: 1.25;
-      }
-    }
 
-  /* H4 */
-    h4 {
-      font-size: 1.125em;
-      /* 1.125x body copy size = 18px */
-      line-height: 1.11111111;
-    }
+/* H3 */
 
-    @media (min-width: 43.75em) {
-      h4 {
-        line-height: 1.22222222;
-        /* (22px / 18px */
-      }
-    }
+h3 {
+  font-size: 1.375em;
+  /* 1.375x body copy size = 22px */
+  line-height: 1.13636364;
+  /* 25px / 22px */
+}
 
-  /* Blockquote */
+@media (min-width: 43.75em) {
+  h3 {
+    font-size: 1.5em;
+    /* 1.5x body copy size = 24px */
+    line-height: 1.25;
+  }
+}
 
-    blockquote {
-      font-size: 1.25em;
-      /* 20px / 16px */
-      line-height: 1.25;
-      /* 25px / 20px */
-    }
+@media (min-width: 56.25em) {
+  h3 {
+    font-size: 1.75em;
+    /* 1.75x body copy size = 28px */
+    line-height: 1.25;
+  }
+}
 
-    @media (min-width: 43.75em) {
-      blockquote {
-        font-size: 1.5em;
-        /* 24px / 16px = */
-        line-height: 1.45833333;
-        /* 35px / 24px */
-      }
-    }
 
-    /* Fluid Typograhpy */
-      /* Older browsers */
-      @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-        html {
-          font-size: 16px;
-        }
-      }
+/* H4 */
 
-      @media screen and (min-width: 25em){
-        html { font-size: calc( 16px + (24 - 16) * (100vw - 400px) / (1224 - 320) ); }
-      }
-      @media screen and (min-width: 50em){
-        html { font-size: calc( 16px + (24 - 16) * (100vw - 400px) / (1224 - 320) ); }
-      }
+h4 {
+  font-size: 1.125em;
+  /* 1.125x body copy size = 18px */
+  line-height: 1.11111111;
+}
+
+@media (min-width: 43.75em) {
+  h4 {
+    line-height: 1.22222222;
+    /* (22px / 18px */
+  }
+}
+
+
+/* Blockquote */
+
+blockquote {
+  font-size: 1.25em;
+  /* 20px / 16px */
+  line-height: 1.25;
+  /* 25px / 20px */
+}
+
+@media (min-width: 43.75em) {
+  blockquote {
+    font-size: 1.5em;
+    /* 24px / 16px = */
+    line-height: 1.45833333;
+    /* 35px / 24px */
+  }
+}
+
+
+/* Fluid Typograhpy */
+
+
+/* Older browsers */
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 25em) {
+  html {
+    font-size: calc( 16px + (24 - 16) * (100vw - 400px) / (1224 - 320));
+  }
+}
+
+@media screen and (min-width: 50em) {
+  html {
+    font-size: calc( 16px + (24 - 16) * (100vw - 400px) / (1224 - 320));
+  }
+}
+
 
 /* Pages styles */
-  /* Bootstrap style Container */
-    .container {
-      padding-right: 15px;
-      padding-left: 15px;
-      margin-right: auto;
-      margin-left: auto;
-    }
-    @media (min-width: 768px) {
-      .container {
-        width: 750px;
-      }
-    }
-    @media (min-width: 992px) {
-      .container {
-        width: 970px;
-      }
-    }
-    @media (min-width: 1200px) {
-      .container {
-        width: 1170px;
-      }
-    }
-    .container-fluid {
-      padding-right: 15px;
-      padding-left: 15px;
-      margin-right: auto;
-      margin-left: auto;
-      padding-bottom: 1.6%;
-    }
-    .container-fluid--0 {
-      padding-right: 0;
-      padding-left: 0;
-      margin-right: auto;
-      margin-left: auto;
-      background: gray;
-    }
-  /* CSS Grid */
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(7, 2fr);
-      grid-auto-rows: minmax(100px, auto);
-      grid-row-gap: 0.5rem;
-      justify-items: stretch;
-      align-items: center;
-      padding: 1rem;
-    }
-    .grid-heading {
-      grid-column: 3/6;
-      grid-row: 1;
-    }
-    .grid-object {
-      grid-column: 3/6;
-      grid-row: 1;
-    }
-  /* Content styles */
-    .hero {
-      display: flex;
-      flex-flow: column nowrap;
-      align-items: center;
-      justify-content: center;
-      min-height: 87vh;
-    }
-    .flexbox {
-      display: flex;
-      flex-flow: row nowrap;
-      align-items: center;
-      justify-content: space-around;
-    }
-    .page-cover--home {
-      background-image: url(https://i.imgur.com/aXDNNAr.png);
-      background-color: #393939;
-      background-size: cover;
-      background-position: center;
-      background-blend-mode: multiply;
-    }
-    .page-cover--contacts {
-      background-image: url(https://i.imgur.com/aXDNNAr.png);
-      background-color: #393939;
-      background-size: cover;
-      background-position: center;
-      background-blend-mode: multiply;
-    }
-    .main-logo {
-      text-align: center;
-    }
-    .main-logo img {
-      min-width: 250px;
-      min-height: 250px;
-      max-width: 400px;
-      max-height: 400px;
-    }
-    .main-heading {
-      color: #C5B8A7;
-      text-align: center;
-      font-weight: lighter;
-      padding-top: 1%;
-      padding-bottom: 1%
-    }
-    .main-subheading {
-      color: #C5B8A7;
-      text-align: center;
-      padding-top: 1%;
-      padding-bottom: 1%
-    }
 
-    .contact-email {
-      grid-column: 2;
-      text-align: center;
-      padding-top: 1em;
-    }
-    .contact-phone {
-      grid-column: 5;
-      text-align: center;
-      padding-top: 1em;
-    }
+
+/* Bootstrap style Container */
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 1.6%;
+}
+
+.container-fluid--0 {
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  background: gray;
+}
+
+
+/* CSS Grid */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(7, 2fr);
+  grid-auto-rows: minmax(100px, auto);
+  grid-row-gap: 0.5rem;
+  justify-items: stretch;
+  align-items: center;
+  padding: 1rem;
+}
+
+.grid-heading {
+  grid-column: 3/6;
+  grid-row: 1;
+}
+
+.grid-object {
+  grid-column: 3/6;
+  grid-row: 1;
+}
+
+
+/* Content styles */
+
+.hero {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  min-height: 87vh;
+  width: 100%;
+}
+
+.flexbox {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.page-cover--home {
+  background-image: url(https://i.imgur.com/aXDNNAr.png);
+  background-color: #393939;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+}
+
+.page-cover--contacts {
+  background-image: url(https://i.imgur.com/aXDNNAr.png);
+  background-color: #393939;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+}
+
+.main-logo {
+  text-align: center;
+}
+
+.main-logo img {
+  min-width: 200px;
+  min-height: 200px;
+  max-width: 50vh;
+  max-height: 50vh;
+}
+
+.main-heading {
+  color: #C5B8A7;
+  text-align: center;
+  font-weight: lighter;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.main-subheading {
+  color: #C5B8A7;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.contact-email {
+  grid-column: 2;
+  text-align: center;
+  padding-top: 1em;
+}
+
+.contact-phone {
+  grid-column: 5;
+  text-align: center;
+  padding-top: 1em;
+}
+
 
 /* Menu,Footer and links styles */
-  /* Menu */
-    .nav-bar {
-      background-color: transparent;
-      display: grid;
-      grid-template-areas:
-      "logo . . . . . . . links links links links";
-      justify-items: space-around;
-      align-items: center;
-    }
-    .nav-logo {
-      padding-left: 1rem;
-    }
-    .nav-logo a {
-      color: #FF6200;
-    }
-    .nav-logo a h1{
-      grid-area: logo;
-      font-family: "Inconsolata", monospace;
-      font-size: 2rem;
-      font-weight: lighter;
-      font-style: italic;
-    }
-    .nav-linkbar {
-      grid-area: links;
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-    }
-    .nav-linkbar li {
-      display: inline;
-    }
-    .nav-link {
-      text-align: center;
-      font-size: 0.6rem;
-    }
 
-  /* Footer */
-    .footer {
-      background-color: transparent;
-      display: grid;
-      grid-template-areas:
-      "logo . . . . . . . links links links links";
-      justify-items: space-around;
-      align-items: center;
-    }
-    .footer-copyright {
-      grid-area: logo;
-      color: #A09990;
-      font-size: 0.5rem;
-      padding-left: 0.5rem;
-      align-self: bottom;
-    }
-    .footer-links {
-      grid-area: links;
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      font-size: 0.5rem;
-      padding: 0.6rem 0.2rem;
-    }
-    .footer-links li {
-      display: inline;
-    }
 
-  /* Links */
-    a {
-      color: #A09990;
-      text-decoration: none;
-      position: relative;
-      transition: all .5s ease;
-    }
-    a:after,
-    a:before {
-      transition: all .3s;
-    }
-    a:hover {
-      color: #C5B8A7;
-    }
-    a:active {
-      color: #867D70;
-    }
-    .active {
-      color: #FF6200;
-    }
+/* Menu */
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  padding-left: 1rem;
+}
+
+.nav-logo a {
+  color: #FF6200;
+}
+
+.nav-logo a h1 {
+  grid-area: logo;
+  font-family: "Inconsolata", monospace;
+  font-size: 2rem;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.nav-linkbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-linkbar li {
+  display: inline;
+  text-align: center;
+  font-size: 1em;
+  padding: 0 0.5em;
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-copyright {
+  color: #A09990;
+  font-size: 0.35em;
+}
+
+.footer-linkbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.5rem;
+  padding: 2.5% 0;
+}
+
+.footer-linkbar li {
+  display: inline;
+  font-size: 2em;
+  padding: 0 1em;
+}
+
+/* Links */
+
+a {
+  color: #A09990;
+  text-decoration: none;
+  position: relative;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+a:after, a:before {
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+a:hover {
+  color: #C5B8A7;
+}
+
+a:active {
+  color: #867D70;
+}
+
+.active {
+  color: #FF6200;
+}
+
 
 /* Colour Palette */
-  /* Palette color codes */
-  /* Palette URL: http://paletton.com/#uid=50n0l1k-5mJSNB7IAs2vBhqtRa1k037b0e5j036c025k014-k2alq4ToG3fk74cij5ggR */
-  /* Feel free to copy&paste color codes to your application */
 
-  /* Main palette */
-    .color-primary-0 { color: #B54500 }	/* Main Primary color */
-    .color-primary-1 { color: #FF6200 }
-    .color-primary-2 { color: #DF5600 }
-    .color-primary-3 { color: #8B3602 }
-    .color-primary-4 { color: #502205 }
 
-    .color-secondary-1-0 { color: #393939 }	/* Main Secondary color (1) */
-    .color-secondary-1-1 { color: #2A2A2A }
-    .color-secondary-1-2 { color: #313131 }
-    .color-secondary-1-3 { color: #2A2A2A }
-    .color-secondary-1-4 { color: #242424 }
+/* Palette color codes */
 
-    .color-secondary-2-0 { color: #ABA69F }	/* Main Secondary color (2) */
-    .color-secondary-2-1 { color: #C5B8A7 }
-    .color-secondary-2-2 { color: #A09990 }
-    .color-secondary-2-3 { color: #928A7F }
-    .color-secondary-2-4 { color: #867D70 }
 
-    .color-highlight-1 { color: #574AE2 } /* Highlight colors (2) */
-    .color-highlight-2 { color: #222A68 }
+/* Palette URL: http://paletton.com/#uid=50n0l1k-5mJSNB7IAs2vBhqtRa1k037b0e5j036c025k014-k2alq4ToG3fk74cij5ggR */
 
-   /* Main palette - As RGBa codes */
-     .rgba-primary-0 { color: rgba(181, 69,  0,1) }	/* Main Primary color */
-     .rgba-primary-1 { color: rgba(255, 98,  0,1) }
-     .rgba-primary-2 { color: rgba(223, 86,  0,1) }
-     .rgba-primary-3 { color: rgba(139, 54,  2,1) }
-     .rgba-primary-4 { color: rgba( 80, 34,  5,1) }
 
-     .rgba-secondary-1-0 { color: rgba( 57, 57, 57,1) }	/* Main Secondary color (1) */
-     .rgba-secondary-1-1 { color: rgba( 42, 42, 42,1) }
-     .rgba-secondary-1-2 { color: rgba( 49, 49, 49,1) }
-     .rgba-secondary-1-3 { color: rgba( 42, 42, 42,1) }
-     .rgba-secondary-1-4 { color: rgba( 36, 36, 36,1) }
+/* Feel free to copy&paste color codes to your application */
 
-     .rgba-secondary-2-0 { color: rgba(171,166,159,1) }	/* Main Secondary color (2) */
-     .rgba-secondary-2-1 { color: rgba(197,184,167,1) }
-     .rgba-secondary-2-2 { color: rgba(160,153,144,1) }
-     .rgba-secondary-2-3 { color: rgba(146,138,127,1) }
-     .rgba-secondary-2-4 { color: rgba(134,125,112,1) }
 
-   /* Generated by Paletton.com Â© 2002-2014 */
-   /* http://paletton.com */
+/* Main palette */
+
+.color-primary-0 {
+  color: #B54500
+}
+
+
+/* Main Primary color */
+
+.color-primary-1 {
+  color: #FF6200
+}
+
+.color-primary-2 {
+  color: #DF5600
+}
+
+.color-primary-3 {
+  color: #8B3602
+}
+
+.color-primary-4 {
+  color: #502205
+}
+
+.color-secondary-1-0 {
+  color: #393939
+}
+
+
+/* Main Secondary color (1) */
+
+.color-secondary-1-1 {
+  color: #2A2A2A
+}
+
+.color-secondary-1-2 {
+  color: #313131
+}
+
+.color-secondary-1-3 {
+  color: #2A2A2A
+}
+
+.color-secondary-1-4 {
+  color: #242424
+}
+
+.color-secondary-2-0 {
+  color: #ABA69F
+}
+
+
+/* Main Secondary color (2) */
+
+.color-secondary-2-1 {
+  color: #C5B8A7
+}
+
+.color-secondary-2-2 {
+  color: #A09990
+}
+
+.color-secondary-2-3 {
+  color: #928A7F
+}
+
+.color-secondary-2-4 {
+  color: #867D70
+}
+
+.color-highlight-1 {
+  color: #574AE2
+}
+
+
+/* Highlight colors (2) */
+
+.color-highlight-2 {
+  color: #222A68
+}
+
+
+/* Main palette - As RGBa codes */
+
+.rgba-primary-0 {
+  color: rgba(181, 69, 0, 1)
+}
+
+
+/* Main Primary color */
+
+.rgba-primary-1 {
+  color: rgba(255, 98, 0, 1)
+}
+
+.rgba-primary-2 {
+  color: rgba(223, 86, 0, 1)
+}
+
+.rgba-primary-3 {
+  color: rgba(139, 54, 2, 1)
+}
+
+.rgba-primary-4 {
+  color: rgba( 80, 34, 5, 1)
+}
+
+.rgba-secondary-1-0 {
+  color: rgba( 57, 57, 57, 1)
+}
+
+
+/* Main Secondary color (1) */
+
+.rgba-secondary-1-1 {
+  color: rgba( 42, 42, 42, 1)
+}
+
+.rgba-secondary-1-2 {
+  color: rgba( 49, 49, 49, 1)
+}
+
+.rgba-secondary-1-3 {
+  color: rgba( 42, 42, 42, 1)
+}
+
+.rgba-secondary-1-4 {
+  color: rgba( 36, 36, 36, 1)
+}
+
+.rgba-secondary-2-0 {
+  color: rgba(171, 166, 159, 1)
+}
+
+
+/* Main Secondary color (2) */
+
+.rgba-secondary-2-1 {
+  color: rgba(197, 184, 167, 1)
+}
+
+.rgba-secondary-2-2 {
+  color: rgba(160, 153, 144, 1)
+}
+
+.rgba-secondary-2-3 {
+  color: rgba(146, 138, 127, 1)
+}
+
+.rgba-secondary-2-4 {
+  color: rgba(134, 125, 112, 1)
+}
+
+
+/* Generated by Paletton.com Â© 2002-2014 */
+
+
+/* http://paletton.com */
+
 
 /* Browser Compatibility Styles */
-   /* Microsoft IE10+ */
-   @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-     #ie-bg {
-       height: 100%;
-       width: 100%;
-       background-color: rgba( 5, 5, 5,0.80);
-     }
-   }
-   /* Microsoft EdgeV13 */
-   @supports (-ms-accelerator: true) {
 
-     #ie-bg {
-       height: 100%;
-       width: 100%;
-       background-color: rgba( 5, 5, 5,0.80);
-     }
-   }
-   /* Microsoft EdgeV13&14 */
-    @supports (-ms-ime-align: auto) {
-      #ie-bg {
-        height: 100%;
-        width: 100%;
-        background-color: rgba( 5, 5, 5,0.80);
-      }
-    }
+
+/* Microsoft IE10+ */
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .hero { /* flex horizontal alignment fix */
+    height: 1000px;
+    max-height: 100vh;
+  }
+  #ie-bg { /* Background color mask fix */
+    height: 100%;
+    width: 100%;
+    background-color: rgba( 5, 5, 5, 0.80);
+  }
+}
+
+
+/* Microsoft EdgeV13 */
+
+@supports (-ms-accelerator: true) {
+  #ie-bg { /* Background color mask fix */
+    height: 100%;
+    width: 100%;
+    background-color: rgba( 5, 5, 5, 0.80);
+  }
+}
+
+
+/* Microsoft EdgeV13&14 */
+
+@supports (-ms-ime-align: auto) {
+  #ie-bg {
+    height: 100%;
+    width: 100%;
+    background-color: rgba( 5, 5, 5, 0.80);
+  }
+}
