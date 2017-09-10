@@ -20502,3 +20502,89 @@ Processing by PagesController#show as HTML
 Completed 200 OK in 28ms (Views: 27.8ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-09-11 09:16:53 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 198ms
+
+
+  
+SyntaxError (/Users/filipmaslovaric/Documents/GitHub/Personal-Portfolio-Project/app/views/layouts/application.html.erb:6: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+s site: “Filip Maslovaric” );@output_buffer.safe_append=
+                              ^):
+  
+app/views/layouts/application.html.erb:6: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+app/controllers/pages_controller.rb:3:in `show'
+Processing by ErrorsController#internal_server_error as HTML
+  Parameters: {"page"=>"home"}
+  Rendering errors/internal_server_error.html.erb within layouts/application
+  Rendered errors/internal_server_error.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 6ms
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-11 09:18:12 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 9ms
+
+
+  
+SyntaxError (/Users/filipmaslovaric/Documents/GitHub/Personal-Portfolio-Project/app/views/layouts/application.html.erb:4: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+s site: “Filip Maslovaric” );@output_buffer.safe_append=
+                              ^):
+  
+app/views/layouts/application.html.erb:4: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+app/controllers/pages_controller.rb:3:in `show'
+Processing by ErrorsController#internal_server_error as HTML
+  Parameters: {"page"=>"home"}
+  Rendering errors/internal_server_error.html.erb within layouts/application
+  Rendered errors/internal_server_error.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 7ms
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-11 09:19:08 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered shared/_menu.html.erb (0.9ms)
+  Rendered shared/_footer.html.erb (1.5ms)
+Completed 200 OK in 397ms (Views: 396.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-11 09:22:08 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 10ms
+
+
+  
+SyntaxError (/Users/filipmaslovaric/Documents/GitHub/Personal-Portfolio-Project/app/views/layouts/application.html.erb:4: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+s site: “Filip Maslovaric” );@output_buffer.safe_append=
+                              ^):
+  
+app/views/layouts/application.html.erb:4: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+app/controllers/pages_controller.rb:3:in `show'
+Processing by ErrorsController#internal_server_error as HTML
+  Parameters: {"page"=>"home"}
+  Rendering errors/internal_server_error.html.erb within layouts/application
+  Rendered errors/internal_server_error.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 53ms
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-11 09:23:34 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+  Rendered shared/_menu.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (2.8ms)
+Completed 200 OK in 71ms (Views: 70.2ms)
+
+
