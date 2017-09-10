@@ -34,6 +34,8 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'sitemap_generator'
 
+gem 'meta-tags'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
