@@ -20588,3 +20588,103 @@ Processing by PagesController#show as HTML
 Completed 200 OK in 71ms (Views: 70.2ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-09-12 12:25:11 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.9ms)
+  Rendered shared/_menu.html.erb (0.8ms)
+  Rendered shared/_footer.html.erb (1.2ms)
+Completed 200 OK in 607ms (Views: 384.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-12 12:26:53 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.3ms)
+  Rendered shared/_menu.html.erb (0.8ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 428ms (Views: 242.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-12 12:26:59 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+  Rendered shared/_menu.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (1.2ms)
+Completed 200 OK in 38ms (Views: 36.8ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2017-09-12 12:27:00 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"about"}
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.5ms)
+  Rendered shared/_menu.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (1.3ms)
+Completed 200 OK in 82ms (Views: 81.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-12 12:27:06 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered shared/_menu.html.erb (0.9ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 33ms (Views: 31.9ms)
+
+
+Started GET "/pages/contacts" for 127.0.0.1 at 2017-09-12 12:27:07 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"contacts"}
+  Rendering pages/contacts.html.erb within layouts/application
+  Rendered pages/contacts.html.erb within layouts/application (0.7ms)
+  Rendered shared/_menu.html.erb (0.8ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 33ms (Views: 32.7ms)
+
+
+Started GET "/pages/projects" for 127.0.0.1 at 2017-09-12 12:27:08 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"projects"}
+  Rendering pages/projects.html.erb within layouts/application
+  Rendered pages/projects.html.erb within layouts/application (0.6ms)
+  Rendered shared/_menu.html.erb (1.7ms)
+  Rendered shared/_footer.html.erb (1.2ms)
+Completed 200 OK in 55ms (Views: 54.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-12 12:27:09 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+  Rendered shared/_menu.html.erb (1.5ms)
+  Rendered shared/_footer.html.erb (1.8ms)
+Completed 200 OK in 60ms (Views: 59.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-12 13:49:17 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+  Rendered shared/_menu.html.erb (0.9ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 49ms (Views: 48.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-12 18:57:20 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"home"}
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.2ms)
+  Rendered shared/_menu.html.erb (0.7ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 420ms (Views: 229.2ms)
+
+
