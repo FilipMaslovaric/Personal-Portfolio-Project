@@ -304,30 +304,6 @@ blockquote {
   background: gray;
 }
 
-
-/* CSS Grid */
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(7, 2fr);
-  grid-auto-rows: minmax(100px, auto);
-  grid-row-gap: 0.5rem;
-  justify-items: stretch;
-  align-items: center;
-  padding: 1rem;
-}
-
-.grid-heading {
-  grid-column: 3/6;
-  grid-row: 1;
-}
-
-.grid-object {
-  grid-column: 3/6;
-  grid-row: 1;
-}
-
-
 /* Content styles */
 
 .hero {
